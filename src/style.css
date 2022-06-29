@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clear {
+	@apply bg-gray-200;
+}
+
+.mine {
+	@apply bg-red-600;
+}

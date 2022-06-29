@@ -1,0 +1,20 @@
+{
+	"name": "camp6-minesweeper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/main.js",
+	"source": "src/index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"parcel": "^2.6.2",
+		"postcss": "^8.4.14",
+		"tailwindcss": "^3.1.4"
+	}
+}
