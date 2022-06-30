@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Minesweeper</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body class="h-screen w-screen">
-		<header>
-			<h1 class="text-center">Minesweeper</h1>
-		</header>
-		<main class="w-full flex flex-col items-center justify-center">
-			<div id="messages">You already know how to play it.</div>
-			<div id="score">Your current score is: <span>0</span></div>
-			<div
-				id="game-grid"
-				style="
-					height: 400px;
-					width: 400px;
-					min-height: 400px;
-					min-width: 400px;
-				"
-				class="grid grid-cols-11"
-			></div>
-		</main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="h-screen w-screen">
+    <header>
+      <h1 class="text-center">Minesweeper</h1>
+    </header>
+    <main class="w-full flex flex-col items-center justify-center">
+      <div id="messages">You already know how to play it.</div>
+      <div id="score">Your current score is: <span>0</span></div>
+      <div id="game-grid" class="grid grid-cols-11 w-[880px] h-[880px]"></div>
+    </main>
 
-		<script src="main.ts"></script>
-	</body>
+    <script src="main.ts"></script>
+  </body>
 </html>
